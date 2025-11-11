@@ -43,7 +43,7 @@ def ask_llm(prompt):
 # First Prompt — Interpret Intent
 def interpret_intent(customer_query):
     prompt = f"""
-    You are a helpful assistant. Summarize the customer's main intent
+    You are a helpful bank assistant. Summarize the customer's main intent
     in one short sentence.
 
     Customer query:
